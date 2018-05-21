@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.04.18" orientation="orthogonal" renderorder="right-down" width="26" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+ <tileset firstgid="1" name="tilea4" tilewidth="32" tileheight="32" tilecount="240" columns="16">
+  <image source="tilea4.png" width="512" height="480"/>
+ </tileset>
+ <layer name="background" width="26" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzbwsDAsGUUj+JRPIpH8SgexRRhAAKaSSA=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="1" x="0" y="0" width="32" height="576"/>
+  <object id="2" x="32" y="544" width="768" height="32"/>
+  <object id="5" x="800" y="0" width="32" height="576"/>
+  <object id="6" x="32" y="0" width="768" height="32"/>
+  <object id="7" x="96" y="224" width="128" height="32"/>
+  <object id="8" x="352" y="96" width="160" height="32"/>
+  <object id="9" x="608" y="128" width="32" height="32"/>
+  <object id="10" x="288" y="192" width="32" height="32"/>
+  <object id="11" x="224" y="320" width="32" height="32"/>
+  <object id="12" x="32" y="352" width="32" height="32"/>
+  <object id="13" x="320" y="352" width="224" height="32"/>
+  <object id="16" x="576" y="256" width="64" height="32"/>
+  <object id="17" x="704" y="192" width="96" height="32"/>
+  <object id="18" x="608" y="448" width="128" height="32"/>
+  <object id="19" x="128" y="448" width="128" height="32"/>
+ </objectgroup>
+ <layer name="graphics" width="26" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxLZGBgSKQTpjUYrPaQGxbU9g8uswZbuJHjFnxhTKt0SE3z8Jk1WOKH2n4lNi2QW54MlnCjpT2UpG1C+YXWgN720AMDAOqBLFY=
+  </data>
+ </layer>
+</map>
