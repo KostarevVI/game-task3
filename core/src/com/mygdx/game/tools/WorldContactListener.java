@@ -16,9 +16,8 @@ public class WorldContactListener implements ContactListener {
     private int playerOnGround = 0;
 
     private boolean isItPlayer(Fixture fixA, Fixture fixB) {
-        if (fixA.getUserData() == "footSensor" || fixB.getUserData() == "footSensor")
-            return fixA.getFilterData().categoryBits == MyGame.PLAYER_BIT;
-        return false;
+        return (fixA.getUserData() == "footSensor" || fixB.getUserData() == "footSensor")
+                && fixA.getFilterData().categoryBits == MyGame.PLAYER_BIT;
     }
 
     @Override
@@ -28,7 +27,6 @@ public class WorldContactListener implements ContactListener {
 
         if (isItPlayer(fixA, fixB))
             playerOnGround++;
-        //Gdx.app.log("Begin cont " + String.valueOf(isOnGround), "");
     }
 
     @Override
